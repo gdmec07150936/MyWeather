@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_0"
+            android:id="@+id/imageView"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="15℃~23℃"
+            android:textColor="#AA22CC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_temp"
+            android:gravity="center"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="多云"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#00AACC"
+                android:id="@+id/tv_status"
+                android:gravity="center"
+                 />
+            <TextView
+                android:text="风力1-2级"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#00AACC"
+                android:id="@+id/tv_wind"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#00AACC"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="20160928"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#00AA33"
+                android:id="@+id/tv_date"
+                android:gravity="center"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="星期一"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#00AA33"
+                android:id="@+id/tv_day"
+                android:gravity="center"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
